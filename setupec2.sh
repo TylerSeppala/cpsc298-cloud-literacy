@@ -10,5 +10,5 @@ sudo chkconfig httpd on
 cd /wcode/cpsc298-cloud-literacy/renderer/raytrace
 sudo ./build
 sudo ./raytrace test
-sudo cp box.png /var/www/html/myshape.png
+sudo cp block.png /var/www/html/myshape.png
 sudo cp /wcode/cpsc298-cloud-literacy/index/index.html /var/www/html

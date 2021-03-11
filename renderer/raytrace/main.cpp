@@ -44,8 +44,8 @@ void BlockTest()
     // Create a concrete block object.  
     // We *must* use operator new to create all solids, because the Scene destructor will delete it.
     ConcreteBlock* block = new ConcreteBlock(Vector(0.0, 0.0, -160.0), Optics(Color(0.5, 0.5, 0.5)));
-    block->RotateX(-10.0);
-    block->RotateY(-15.0);
+    block->RotateX(-84.0);
+    block->RotateY(-35.0);
     scene.AddSolidObject(block);
 
     // Create a sphere and put it into the scene also.
